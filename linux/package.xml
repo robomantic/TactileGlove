@@ -6,8 +6,14 @@
   <license>LGPLv3</license>
 
   <!-- One author/maintainer tag required, multiple allowed, one person per tag -->
-  <author email="rhaschke@techfak.uni-bielefeld.de">Robert Haschke</author>
   <maintainer email="rhaschke@techfak.uni-bielefeld.de">Robert Haschke</maintainer>
+
+  <author email="rhaschke@techfak.uni-bielefeld.de">Robert Haschke</author>
+  <author email="gwalck@techfak.uni-bielefeld.de">Guillaume Walck</author>
+  <author email="gbuescher@techfak.uni-bielefeld.de">Gereon Buescher</author>
+  <author email="rkoiva@techfak.uni-bielefeld.de">Risto Kõiva</author>
+  <author>Carsten Schürmann</author>
+  <author>Matthias Schöpfer</author>
 
   <!-- Url tags are optional, but mutiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
