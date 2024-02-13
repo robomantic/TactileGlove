@@ -17,18 +17,20 @@
 
 ## Build Instructions
 
-A [`package.xml`](package.xml) is provided to allow simple integration within a ROS workspace. Otherwise, just build with cmake as follows:
+A [`package.xml`](package.xml) is provided to allow simple integration within a ROS workspace. **Otherwise**, just build with cmake as follows:
 
 ```bash
+cd <tactile_glove src-config path>
 mkdir build
 cd build
-cmake -Dtactile_filters_DIR=<path> <src path>
+cmake -Dtactile_filters_DIR=<path> ../
 make
 make install
 ```
 ## Usage
 
 The software is split into two parts: a console program and a GUI program (in corresponding sub dirs).
+Both can be started with `rosrun tactile_glove [gloveConsole|GloveViz]` if built with ROS.
 
 ### gloveConsole
 
